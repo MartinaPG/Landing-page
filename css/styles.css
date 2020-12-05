@@ -81,14 +81,31 @@ h1{
   position: absolute;
   width: 20%;
   height: 10vh;
-  background-color:pink;
-  right: 5%;
-  top:85vh;
+  right:0;
+  top:90vh;
+  margin-right: 5%;
 }
-.icon {
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: white;
-  fill: white;
+i{
+  font-size: 1.5rem;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  margin:0 5px;
+  float: right;
+}
+.fb{
+  padding: 10px 15px;
+}
+.tw{
+  padding: 10px 10px;
+}
+.in{
+  padding: 10px 12px;
+}
+i:hover{
+  font-size: 1.5rem;
+  color:  hsl(300, 69%, 71%);
+  border: 2px solid  hsl(300, 69%, 71%);
+  border-radius: 100%;
+  margin:0 5px;
 }
