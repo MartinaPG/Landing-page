@@ -28,7 +28,7 @@ padding: 0;
 .txt1{
 position: absolute;
 width: 30%;
-display: inline-block;
+display: fixed;
 top:10%;
 margin-left: 5%;
 
